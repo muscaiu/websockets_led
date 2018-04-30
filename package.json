@@ -1,0 +1,16 @@
+{
+  "name": "websockets_led",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webserver.js",
+  "dependencies": {
+    "onoff": "^3.0.2",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
