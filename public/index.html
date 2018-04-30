@@ -21,7 +21,7 @@
     window.addEventListener("load", function () { //when page loads
       var lightbox = document.getElementById("light");
       lightbox.addEventListener("change", function () { //add event listener for when checkbox changes
-        console.log('change event-')
+        console.log('change event')
         socket.emit("light", Number(this.checked)); //send button status to server (as 1 or 0)
       });
     });
