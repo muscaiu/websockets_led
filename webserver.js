@@ -23,7 +23,7 @@ function handler(req, res) {
 
 io.sockets.on('connection', (socket) => {// WebSocket Connection
   console.log('a connection showed up')
-  const lightvalue = 0; //static variable for current status
+  let lightvalue = 0; //static variable for current status
   pushButton.watch((err, value) => { //Watch for hardware interrupts on pushButton
     if (err) { //if an error
       console.error('There was an error', err); //output error message to console
